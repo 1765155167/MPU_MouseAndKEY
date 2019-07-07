@@ -1,0 +1,18 @@
+实验器材:
+	STM32F103开发板V3版本
+	
+实验目的:
+	学习STM32的USB功能使用,鼠标功能.
+	
+硬件资源:
+	1,DS0(连接在PA8) 
+	2,串口1(波特率:25600,PA9/PA10连接在板载USB转串口芯片CH340上面)
+	3,ALIENTEK 2.8/3.5/4.3/7寸TFTLCD模块(通过GPIO驱动,连接关系见lcd.h) 
+	4,按键KEY0(PC5)/KEY1(PA15)/KEY_UP(PA0,也称之为WK_UP)  
+	5,ALIENTEK MPU6050模块一个(连接在PB10(SCL),PB11(SDA),PA15(AD0)上面,INT未用到). 
+	6，HX711 SCK（B12）；DT（B13）压力传感器  绿E+，黄E-，蓝A-，橙A+
+	7,USART1 TX:A9   USART1 	RX:A10		
+	  USART2 TXPA.2  USART2 	RXPA.3	GSM	
+	  UART4  TX:C10  UART4  	RX:C11	语音		
+	  MPU6050 PB10(SCL),PB11(SDA)
+	  LED1鼠标    LED0键盘
